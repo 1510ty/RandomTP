@@ -1,0 +1,8 @@
+name: RandomTP
+version: ${version}
+main: com.mc1510ty.RandomTP.paper.v1_21_11.Main
+description: /rtpでランダムな場所にテレポート
+author: 1510ty
+website: https://github.com/1510ty/RandomTP/
+api-version: '1.21.11'
+folia-supported: true

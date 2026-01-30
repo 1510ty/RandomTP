@@ -1,0 +1,7 @@
+radius: 100000
+done-teleport: Random teleportation complete!
+cooldownmsg: Teleport is on cooldown. {seconds} seconds remaining.
+cooldown: 5
+worldname: world
+move-y: 321
+RESISTANCE-time: 15 #seconds
