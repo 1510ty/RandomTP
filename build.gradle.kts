@@ -1,5 +1,16 @@
+import java.time.format.DateTimeFormatter
+import java.time.LocalDateTime
+
+val gitCommit: String? by project
+val buildTime = LocalDateTime.now().format(DateTimeFormatter.ofPattern("yyyyMMddHHmm"))
+
+version = if (!gitCommit.isNullOrBlank()) {
+    "$buildTime-$gitCommit"
+} else {
+    "1.0.0"
+}
+
 group = "com.mc1510ty"
-version = "0.0.10"
 
 subprojects {
     version = rootProject.version
